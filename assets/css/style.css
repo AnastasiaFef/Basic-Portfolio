@@ -17,7 +17,7 @@ body{
 
 #name{
 	color: white;
-	margin-left: 15%;
+	margin-left: 10%;
 	margin-top:0;
 	margin-bottom: 0;
 	background: #0a9;
@@ -26,7 +26,7 @@ body{
 }
 nav{
 	float: right;
-	margin-right: 20%;
+	margin-right: 15%;
 	padding-top: 20px;
 /*	padding: auto;
 */}
@@ -42,16 +42,45 @@ nav{
 section{
 	float: left;
 	background-color: #eee;
-	width: 50%;
-	margin: 20px 20px 20px 15%;
+	width: 45%;
+	margin: 20px 3.1% 20px 10%;
 	border: 1px solid grey;
-	padding: 0 10px 10px 10px;
+	padding: 0 15px 15px 15px;
 
 }
 #about{
 	color: #0a9;
+	padding-bottom: 15px;
+	border-bottom: 2px solid grey;
 }
-
+img{
+	float: left;
+	margin: 0 15px 15px 0;
+}
+aside{
+	border:1px solid grey;
+	float: right;
+	margin: 20px 15% 65px 0;
+	background-color: #eee;
+	padding: 0 15px 15px 15px;
+	width: 16%;
+}
+#connect{
+	color: #0a9;
+	padding-bottom: 15px;
+	border-bottom: 1px solid grey;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right:0;
+	padding: 20px 0 20px 47%;
+	border-top: 5px solid #0a9;
+	background: grey;
+	color: #eee;
+	font-size: 10px;
+}
 
 
 
