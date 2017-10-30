@@ -3,7 +3,6 @@ body{
 	width: auto;
 	margin: 0;
 	padding: 0;
-	border: 3px solid black;
 }
 .heading{
 	position: relative;
@@ -11,15 +10,16 @@ body{
 	left: 0;
 	right: 0;
 	width: 100%;
-	border: 1px solid green;
-	background-color: lightgreen;
-	padding-right: 20%; 
+	border-bottom: 2px solid grey;
+	background-color: #eee;
+	float:left;
 }
 
-h1{
+#name{
 	color: white;
 	margin-left: 15%;
 	margin-top:0;
+	margin-bottom: 0;
 	background: #0a9;
 	padding: 10px; 
 	float: left;
@@ -27,22 +27,51 @@ h1{
 nav{
 	float: right;
 	margin-right: 20%;
-	padding: auto;
-}
+	padding-top: 20px;
+/*	padding: auto;
+*/}
 .nav_bar{
 	float: left;
 }
-
-/*.clearfix::after {
-
+/*.clearfix:: {
+	overflow: auto;
 	content:" ";
 	display: block;
 	clear: both;
 }*/
-.heading.clearfix{
-	overflow: auto;
+section{
+	float: left;
+	background-color: #eee;
+	width: 50%;
+	margin: 20px 20px 20px 15%;
+	border: 1px solid grey;
+	padding: 0 10px 10px 10px;
+
+}
+#about{
+	color: #0a9;
 }
 
-section{
-	clear: both;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
