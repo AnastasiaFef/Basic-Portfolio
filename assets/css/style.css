@@ -1,0 +1,48 @@
+body{
+	background-image: url("file:///Users/afefilova/Desktop/UCBX/hw_01/assets/images/Grey-Texture-Background.jpg");: 
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 3px solid black;
+}
+.heading{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	border: 1px solid green;
+	background-color: lightgreen;
+	padding-right: 20%; 
+}
+
+h1{
+	color: white;
+	margin-left: 15%;
+	margin-top:0;
+	background: #0a9;
+	padding: 10px; 
+	float: left;
+}
+nav{
+	float: right;
+	margin-right: 20%;
+	padding: auto;
+}
+.nav_bar{
+	float: left;
+}
+
+/*.clearfix::after {
+
+	content:" ";
+	display: block;
+	clear: both;
+}*/
+.heading.clearfix{
+	overflow: auto;
+}
+
+section{
+	clear: both;
+}
