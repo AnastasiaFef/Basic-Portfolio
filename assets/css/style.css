@@ -1,5 +1,5 @@
 body{
-	background-image: url("file:///Users/afefilova/Desktop/UCBX/hw_01/assets/images/brickwall.png");: 
+	background-image: url("file:../images/brickwall.png");: 
 	width: auto;
 	margin: 0;
 	padding: 0;
