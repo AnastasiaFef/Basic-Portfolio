@@ -1,4 +1,2 @@
-# Basic-Portfolio
-# Commit test
-
-CHANGES
+# Responsive-Portfolio
+Basic portfolio, adjustable for smaller screens
