@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Basic portfolio, adjustable for smaller screens
+# Basic-Portfolio
+Basic portfolio
